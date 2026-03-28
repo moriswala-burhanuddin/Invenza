@@ -29,7 +29,9 @@ export function Contact() {
                 { label: 'Call Us (UK)', val: '+44 7442 193577', icon: Phone, href: 'tel:+447442193577' },
                 { label: 'Call Us (India)', val: '+91 84420 53087', icon: Phone, href: 'tel:+918442053087' },
                 { label: 'Email Support', val: 'Saifee@gmail.com', icon: Mail, href: 'mailto:Saifee@gmail.com' },
-                { label: 'Visit Website', val: 'sysfotech.uk', icon: Globe, href: 'https://sysfotech.uk/' }
+                { label: 'Email Support', val: 'info@sysfotech.uk', icon: Mail, href: 'mailto:info@sysfotech.uk' },
+                { label: 'Visit Website', val: 'sysfotech.uk', icon: Globe, href: 'https://sysfotech.uk/' },
+                { label: 'Visit Website', val: 'saifeedms.com', icon: Globe, href: 'https://www.saifeedms.com/' }
               ].map((c, i) => (
                 <a key={i} href={c.href} target={c.href.startsWith('http') ? '_blank' : '_self'} rel="noreferrer" className="flex items-center gap-6 group cursor-pointer w-fit pr-8">
                   <div className="w-16 h-16 rounded-[20px] bg-[#F5F5F7] border border-black/[0.03] flex items-center justify-center group-hover:bg-[#E5E5EA] transition-colors duration-500 shadow-subtle flex-shrink-0">

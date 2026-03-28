@@ -42,7 +42,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-black/[0.04] flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-[#86868B] text-sm font-medium">
-            © {new Date().getFullYear()} Invenza Enterprise. Built by Sysfotech & Saifee Digital.
+            © {new Date().getFullYear()} Invenza Enterprise. Sysfotech & Saifee Digital.
           </p>
         </div>
 
