@@ -10,7 +10,7 @@ export function Contact() {
 
       <div className="container-safe relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
-          
+
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -18,7 +18,7 @@ export function Contact() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-pro-display text-5xl md:text-7xl text-[#1D1D1F] tracking-tighter mb-8 leading-tight">
-              Ready to grow<br/>your business?
+              Ready to grow<br />your business?
             </h2>
             <p className="text-[#86868B] text-xl font-medium mb-12 max-w-md leading-relaxed">
               Contact our team today to discuss how we can help set up Invenza for your company.
@@ -28,7 +28,7 @@ export function Contact() {
               {[
                 { label: 'Call Us (UK)', val: '+44 7442 193577', icon: Phone, href: 'tel:+447442193577' },
                 { label: 'Call Us (India)', val: '+91 84420 53087', icon: Phone, href: 'tel:+918442053087' },
-                { label: 'Email Support', val: 'Saifee@gmail.com', icon: Mail, href: 'mailto:Saifee@gmail.com' },
+                { label: 'Email Support', val: 'info@saifeedms.com', icon: Mail, href: 'mailto:info@saifeedms.com' },
                 { label: 'Email Support', val: 'info@sysfotech.uk', icon: Mail, href: 'mailto:info@sysfotech.uk' },
                 { label: 'Visit Website', val: 'sysfotech.uk', icon: Globe, href: 'https://sysfotech.uk/' },
                 { label: 'Visit Website', val: 'saifeedms.com', icon: Globe, href: 'https://www.saifeedms.com/' }
@@ -54,7 +54,7 @@ export function Contact() {
             className="bg-[#FAFAFA] rounded-[32px] p-10 lg:p-14 border border-black/[0.04] shadow-subtle relative"
           >
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-[#0071E3]/10 blur-[60px] rounded-full pointer-events-none" />
-            
+
             <form className="relative flex flex-col gap-6" onSubmit={(e) => e.preventDefault()}>
               {[
                 { label: 'Your Name', type: 'text', placeholder: 'John Doe' },
@@ -69,7 +69,7 @@ export function Contact() {
                   />
                 </div>
               ))}
-              
+
               <div>
                 <label className="block text-xs font-bold tracking-widest uppercase text-[#86868B] mb-3">Tell us about your business</label>
                 <textarea
